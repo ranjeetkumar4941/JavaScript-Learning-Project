@@ -1,0 +1,73 @@
+
+body{
+    text-align: center;
+    color: white;
+    background-color: rgba(158, 244, 255, 0.765);
+}
+#maindiv{
+    height: 300px;
+    width: 35%;
+    /* background-color: rgb(148, 184, 137); */
+    background-image: url(Screenshot\ 2024-09-24\ 140505.png);
+    background-size: cover;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-shadow: 2px 1px 10px black ;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+h1{
+    color: rgb(196, 254, 214);
+    font-family: 'Courier New', Courier, monospace;
+}
+select{
+    background-color: rgb(184, 243, 252);
+    /* margin-right: 5px; */
+    border-radius: 5px;
+    
+}
+#value{
+    background-color: rgb(184, 243, 252);
+    border-radius: 5px;
+}
+#valuediv{
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(184, 243, 252);
+    transition:  0.3s ;
+}
+button:hover,select:hover,#value:hover{
+    box-shadow:1px 1px 3px black;
+}
+button:active{
+    background-color: rgb(34, 195, 187);
+}
+div p{
+    border: 1px solid black;
+    width: 35%;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(192, 228, 250);
+    color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#to{
+    margin-top: 10px;
+    margin-right: 19px;
+    margin-bottom: 10px;
+}
+[for="to"]{
+    margin-left: 30px;
+}
+#selectdiv div{
+    display: inline-block;
+}

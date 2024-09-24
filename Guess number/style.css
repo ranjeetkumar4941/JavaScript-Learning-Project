@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+}
+input{
+    border-radius: 7px;
+    background-color: beige;
+}
+button{
+    border-radius: 50px;
+}
+.container{
+    width: 35%;
+    height: 350px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: rgb(122, 255, 255);
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+.input{
+    height: 120px;
+}
