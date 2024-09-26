@@ -1,0 +1,37 @@
+.container{
+    height: 300px;
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+    box-shadow: 4px 2px 7px ;
+    overflow: hidden;
+    transition: 0.5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box{
+    height: 5em;
+    width: 5em;
+    border: 1px solid black;
+    display: inline-block;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.box:hover{
+    box-shadow: 4px 2px 7px ;
+}
+#box1{
+    background-color: aqua;
+    margin-right: 10px;
+
+}
+#box2{
+    background-color: lawngreen;
+    margin-right: 10px;
+}
+#box3{
+    background-color: chocolate;
+}
