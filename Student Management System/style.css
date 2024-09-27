@@ -1,0 +1,67 @@
+
+#head{
+    text-align: center;
+    background-color: rgb(147, 247, 247);
+}
+#container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+#manage{
+    width: 22%;
+    border: 1px solid black;
+    padding: 10px;
+    padding-top: 0px;
+    background-color: rgb(147, 247, 247);
+    margin-left: 100px;
+    overflow: hidden;
+}
+#subhead{
+    text-align: center;
+}
+input{
+    background-color: rgb(186, 252, 253);
+    margin-bottom: 5px;
+    margin-left: 30px;
+    background: local;
+}
+#name,#email {
+    margin-left: 43px;
+}
+#gender{
+    width: 170px;
+    margin-left: 34px;
+    background-color: inherit;
+    margin-bottom: 5px;
+}
+#dob{
+    width: 166px;
+    margin-left: 35px;
+}
+#address{
+    width: 165px;
+    margin-left: 27px;
+}
+[for="address"]{
+    margin-bottom: 80px;
+}
+#add{
+    margin-left: 45%;
+    border-radius: 7px;
+}
+#contact{
+    margin-left: 31px;
+}
+#show{
+    width: 40%;
+    background-color: rgb(147, 247, 247);
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 20px ;
+
+}
+table{
+    text-align: center;
+}

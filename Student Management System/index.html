@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <div id="head">
+            <h1>Student Management System</h1>
+        </div>
+        <div id="container">
+            <div id="manage">
+                <div id="subhead">
+                    <h3>Manage Students</h3>
+                </div>
+                <div id="getinput">
+                    <label for="name">Name</label>
+                    <input  type="text" placeholder="Name" id="name">
+                    <br>
+    
+                    <label for="rollno">Roll no.</label>
+                    <input type="number" placeholder="Rollno." id="rollno">
+                    <br>
+    
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Email" id="email">
+                    <br>
+    
+                    <label for="gender">Gender</label>
+                    <select  id="gender">
+                        <option value="">Select</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
+                    </select>
+                    <br>
+    
+                    <label for="dob">D.O.B.</label>
+                    <input type="date" id="dob">
+                    <br>
+    
+                    <label for="contact">Contact</label>
+                    <input type="text" id="contact" placeholder="Contact">
+                    <br>
+    
+                    <label for="address">Address</label>
+                    <textarea name="" id="address"></textarea>
+                </div>
+                <div>
+                    <button type="submit" id="add">Add</button>
+                    <button type="reset" id="reset">Reset</button>
+                </div>
+            </div>
+            <div id="show">
+                <div id="search">
+                    <label for="searchby"><span><b>Search by</b></span></label>
+                    <select  id="searchby">
+                        <option value="">Select</option>
+                        <option value="name">Name</option>
+                        <option value="rollno">Roll no.</option>
+                        <option value="email">Email</option>
+                        <option value="gender">Gender</option>
+                        <option value="dob">D.O.B.</option>
+                        <option value="contact">Contact</option>
+                        <option value="address">Address</option>
+                    </select>
+    
+                    <input type="text" id="getkey">
+    
+                    <button type="submit">Search</button>
+                </div>
+                <div id="output">
+                    <table border="1">
+                        <tr>
+                            <th>Serial no.</th>
+                            <th>Name</th>
+                            <th>Roll no.</th>
+                            <th>Email</th>
+                            <th>Gender</th>
+                            <th>D.O.B</th>
+                            <th>Contact</th>
+                            <th>Address</th>
+                        </tr>
+                        
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
