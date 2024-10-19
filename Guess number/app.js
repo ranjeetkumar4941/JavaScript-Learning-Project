@@ -70,6 +70,7 @@ submitBtn.addEventListener("click", () => {
         attempt.innerHTML=attemptValue;
         attempt.innerHTML="10";
     }
+    document.querySelector("input").value="";
 });
 
 // disappear unwanted para
